@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    padding: 15px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    margin-top: auto;
+    padding: 0px;
+}
+
+.logo img {
+    display: flex;
+    width: 180px;
+    height: 58px;
+}
+
+.container ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul li span {
+    padding: 0 5px;
+}
+
+.title {
+    margin: 10px 10px;
+    padding: 50px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.heading2 {
+    font-size: 23px;
+    font-family: sans-serif;
+    padding: 30px;
+    text-align: center;
+    width: 934px;
+    color: #333;
+    font-weight: 500;
+}
+.btn-small{
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 10px 23px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.btn-small a{
+    text-decoration: none;
+    color: white;
+}
+.green{
+    padding: 12px 12px;
+    background-color: #5cb85c;
+}
+.blue{
+    padding: 12px 12px;
+    background-color: #00b6d1;
+}
+
+.btn {
+    color: white;
+    background-color: #00b6d1;
+    cursor: pointer;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second {
+    max-width: 71vw;
+    margin: auto;
+}
+.item{
+    padding: 23px;
+    background-color: #f2f3f3;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 33px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.download :nth-child(2){
+    font-size: 23px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.download img{
+    padding: 30px 12px;
+}
+.third{
+    width: 1345px;
+    height: 810px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    margin: 65px 0px 
+    
+}
+.words{
+    color: white;
+    font-family: sans-serif;
+    margin: 6px;
+    text-align: center;
+}
+.form{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+.word1{
+    font-size: 23px;
+    
+}
+.word2{
+    font-size: 16px;
+}
+.card{
+    width: 220px;
+    height: 130px;
+    margin: 11px;
+    padding: 78px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card1{
+    font-family: sans-serif;
+    margin-top: 0;
+    color: #00b6d1;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+}
+.sign{
+    color: white;
+    background-color: #00b6d1;
+    cursor: pointer;
+    padding: 9px 85px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 12px 0;
+    width: 245px;
+    height: 45px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 57px;
+    margin-right: 175px;
+    padding: 25px
+}
+.end{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 145px;
+    padding: 79px ;
+    font-family: sans-serif;
+}
+.first{
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.second2{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.third3{
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+.fourth{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.fifth{
+    font-size: 17px;
+}
+.four{
+    display: flex;
+    flex-direction:row ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+    font-size: 15px;
+    justify-content: center;
+    margin-right: 140px;
+}
+.language{
+    margin: 30px;
+    margin-left: 137px;
+    padding: 10px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.lang-row{
+    margin-top: 15px;
+}
+.language li{
+    list-style: none;
+    font-size: 14px;
+}
+.type{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 90px; */
+}
+.type-row{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.type li{
+    list-style: none;
+}
+.general{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 90px; */
+}
+.general-row{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.general li{
+    list-style: none;
+}
+.news{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+.news-row{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.list{
+    cursor: pointer;
+}
+#username{
+    width: 210px;
+    height: 35px;
+    border: 0.5px solid rgb(184, 183, 183);
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align:center;
+}
+#comment{
+    border: 0.5px solid rgb(202, 202, 202);
+    border-radius: 2px;
+    height: 43px;
+    width: 240px;
+}
+.subs{
+    color: white;
+    background-color: #00b6d1;
+    cursor: pointer;
+    text-align: center;
+    padding: 9px 85px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 12px 0;
+    height: 36px;
+}
+.foot-img{
+    display: flex;
+    width: 160px;
+    height: 50px;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-bottom: 90px;
+}
+.rights{
+    font-size: 12px;
+    color: #222222;
+    width: 200px;
+    margin-top: 20px;
+}
+.svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.twitter{
+    margin: 5px;
+}
+.github{
+    margin: 5px;
+}
+.facebook{
+    margin: 5px;
+}
+.youtube{
+    margin: 5px;
+}
+.instagram{
+    margin: 5px;
+}
+.linkedin{
+    margin: 5px;
+}
+.reddit{
+    margin: 5px;
+}
+@media screen and (max-width:1145px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}
